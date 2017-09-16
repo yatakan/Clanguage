@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAC2C4111F6CEC4D0014B1D8 /* while.c in Sources */ = {isa = PBXBuildFile; fileRef = BAC2C40F1F6CEC4D0014B1D8 /* while.c */; };
+		BAC2C4151F6CEC9F0014B1D8 /* conditional_operator.c in Sources */ = {isa = PBXBuildFile; fileRef = BAC2C4121F6CEC9F0014B1D8 /* conditional_operator.c */; };
+		BAC2C4161F6CEC9F0014B1D8 /* hello.c in Sources */ = {isa = PBXBuildFile; fileRef = BAC2C4131F6CEC9F0014B1D8 /* hello.c */; };
+		BAC2C4171F6CEC9F0014B1D8 /* if.c in Sources */ = {isa = PBXBuildFile; fileRef = BAC2C4141F6CEC9F0014B1D8 /* if.c */; };
+		BAC2C4191F6CECC80014B1D8 /* switch.c in Sources */ = {isa = PBXBuildFile; fileRef = BAC2C4181F6CECC80014B1D8 /* switch.c */; };
 		BAE70CFE1F6AA474004EB8B0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE70CFD1F6AA474004EB8B0 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BAC2C40F1F6CEC4D0014B1D8 /* while.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = while.c; sourceTree = "<group>"; };
+		BAC2C4101F6CEC4D0014B1D8 /* while.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = while.h; sourceTree = "<group>"; };
+		BAC2C4121F6CEC9F0014B1D8 /* conditional_operator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = conditional_operator.c; path = "../../../Desktop/c(programming language)/conditional_operator.c"; sourceTree = "<group>"; };
+		BAC2C4131F6CEC9F0014B1D8 /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello.c; path = "../../../Desktop/c(programming language)/hello.c"; sourceTree = "<group>"; };
+		BAC2C4141F6CEC9F0014B1D8 /* if.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = if.c; path = "../../../Desktop/c(programming language)/if.c"; sourceTree = "<group>"; };
+		BAC2C4181F6CECC80014B1D8 /* switch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = switch.c; path = "../../../Desktop/c(programming language)/switch.c"; sourceTree = "<group>"; };
 		BAE70CFA1F6AA474004EB8B0 /* C language */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C language"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE70CFD1F6AA474004EB8B0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +68,13 @@
 		BAE70CFC1F6AA474004EB8B0 /* C language */ = {
 			isa = PBXGroup;
 			children = (
+				BAC2C4121F6CEC9F0014B1D8 /* conditional_operator.c */,
+				BAC2C4131F6CEC9F0014B1D8 /* hello.c */,
+				BAC2C4181F6CECC80014B1D8 /* switch.c */,
+				BAC2C4141F6CEC9F0014B1D8 /* if.c */,
 				BAE70CFD1F6AA474004EB8B0 /* main.c */,
+				BAC2C40F1F6CEC4D0014B1D8 /* while.c */,
+				BAC2C4101F6CEC4D0014B1D8 /* while.h */,
 			);
 			path = "C language";
 			sourceTree = "<group>";
@@ -120,7 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC2C4161F6CEC9F0014B1D8 /* hello.c in Sources */,
 				BAE70CFE1F6AA474004EB8B0 /* main.c in Sources */,
+				BAC2C4111F6CEC4D0014B1D8 /* while.c in Sources */,
+				BAC2C4191F6CECC80014B1D8 /* switch.c in Sources */,
+				BAC2C4171F6CEC9F0014B1D8 /* if.c in Sources */,
+				BAC2C4151F6CEC9F0014B1D8 /* conditional_operator.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +273,7 @@
 				BAE70D031F6AA474004EB8B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
